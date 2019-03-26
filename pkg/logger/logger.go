@@ -1,5 +1,9 @@
 package logger
 
+import (
+    "context"
+)
+
 type Logger interface {
     Trace(ctx context.Context, args ...interface{})
     Tracef(ctx context.Context, format string, args ...interface{})
