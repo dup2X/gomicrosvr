@@ -1,0 +1,19 @@
+// Package context ...
+package context
+
+const (
+	// DIDITraceIDKey ...
+	DIDITraceIDKey = "didi-header-rid"
+	// DIDISpanIDKey ...
+	DIDISpanIDKey = "didi-header-spanid"
+	// DIDIHintCodeKey ...
+	DIDIHintCodeKey = "didi-header-hint-code"
+	// DIDIHintContentKey ...
+	DIDIHintContentKey = "didi-header-hint-content"
+
+	phpTraceIDKey = "didi-header-rid"
+	phpSpanIDKey  = "didi-header-spanid"
+
+	// DIDIRPCTimeoutMsKey ...
+	DIDIRPCTimeoutMsKey = "didi-rpc-timeout-ms"
+)
